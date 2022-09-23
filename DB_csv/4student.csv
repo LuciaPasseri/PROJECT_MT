@@ -1,0 +1,286 @@
+﻿student_id;last Name;first Name;subscription;gender;experience;english;citizenship;cantonOfResidence;visum
+1;Sanam;Ilieva;5;F;10y 3m;?;Afghanistan;ZH;No
+2;Marianela;Ibay;5;M;~12y;BA was already in EN;Austria;AG;No
+3;Massar;Armengol;3;M;3y 10m;BA was already in EN;Brazil;BS;No
+4;Kristal;Yerobe;1;F;1y 3m;?;Brazil;CH;BS
+5;Gayla;Zhijian;5;M;5y 6m;BA was already in EN;Brazil;India;Yes
+6;Ivanilda;Heraclia;1;F;8y 7m;BA was already in EN;Brazil;Kosoco;BS
+7;Angharad;Laimonas;3;M;9y;FCE, Grade C, B2;Brazil;SG;No
+8;Olexiy;Lorette;5;F;5y 10m;BA was already in EN;Cameroon;BE;No
+9;Lakeshia;Haimei;2;F;6y 3m;BA was already in EN;Cameroon;CH;ZG
+10;Mateo;Jiaming;6;M;;;Cameroon;Rwanda;Yes
+11;Narjes;Chanda;7;M;?;BA was already in EN;Cameroon;ZH;No
+12;Guoying;Darwin;3;F;11y 3m;B2, Grade C;CH;AG;No
+13;Dounia;Derek;3;M;2y 2m;BA was already in EN;CH;Nepal;Yes
+14;Guaxara;Enar;4;M;1y 2m;BA was already in EN;CH;SZ;No
+15;Amalur;Serenella;4;M;5y 8m;mehrere Module auf EN absolviert;CH;SO;No
+16;Silveri;Jude;4;M;3y 8m;?;CH;SO;No
+17;Eleanora;Chasity;3;M;8y 6m;CAE, C1;CH;ZH;No
+18;Laye;Salem;3;M;13y 10m;good EN grades in BSc;CH;AG;No
+19;Segunda;Edmunda;3;M;7y 2m;CAE, C1, Grade C;CH;BE;No
+20;Aniela;Lijin;3;M;6y;CAE, C1, Grade C;CH;AG;No
+21;Guofu;Sage;3;M;~5y 2m ?;mehrere Module auf EN absolviert;CH;BE;No
+22;Nereida;Lais;3;F;14y 10m;FCE, B2, Grade A;CH;BL;No
+23;Omer;Marciano;4;F;1y 7m;BSc BIT, FHNW;CH;BL;No
+24;Aidas;Thomas;3;M;7y 1m;CAE, C1, Grade C;CH;AG;No
+25;Carriona;Evguenia;3;M;19y;?;CH;BS;No
+26;Lynne;Blessing;3;F;4y 7m;gemäss CV C1 Neveau + exchange semester;CH;BE;No
+27;Baldomera;Arman;3;M;12y 8m;BEC Higher, Grade B;CH;BS;No
+28;Georgiann;Antonin;4;F;5m?;BA was already in EN;CH;AG;No
+29;Essie;Mounira;3;F;2y;BA was already in EN;CH;BL;No
+30;Yamandu;Leonie;3;M;9y 4m;CAE, Grade B;CH;LU;No
+31;Joshua;Zhora;3;M;9y 8m;gemäss Best. BFH level C1;CH;SO;No
+32;Biel;Nabila;3;M;13y 9m;?;CH;SO;No
+33;Edisa;Ildefons;3;M;~24y;Several courses in English;CH;BE;No
+34;Darby;Eleonore;3;M;12y 10m;mehrere Module auf EN absolviert;CH;LU;No
+35;Madeleine;Arman;3;M;?;BA was already in EN;CH;SG;No
+36;Ivelin;Esthefany;4;F;~10y;C1;CH;ZH;No
+37;Annmarie;Ronghua;4;M;~11y;BA was already in EN;CH;BS;No
+38;Idaly;Delsie;3;M;3y 4m;BA was already in EN;CH;BE;No
+39;Floarea;Rosamaria;3;F;19y 4m;BA was already in EN;CH;ZH;No
+40;Mamoudou;Wendi;4;M;~5y;?;CH;BS;No
+41;Jonai;Moise;4;M;9m;?;CH;Turkey;Yes
+42;Clotilde;Mimuntz;4;M;~8m;TOEFL exam in July 21;CH;Bosnia;Yes
+43;Wahida;Luanne;3;M;15y 4m;mehrere Module auf EN absolviert;CH;BE;No
+44;Rozica;Jina;4;F;;;CH;Cameroon;Yes
+45;Roseline;Mukhtar;3;F;;BA was already in EN;CH;ZH;No
+46;Emoke;Hachem;3;F;;BA was already in EN;CH;BS;No
+47;Selina;Yunier;3;F;10y;BA was already in EN;CH;India;Yes
+48;Parmenia;Ivonete;4;F;1y 8m;IELTS, Level B2;CH;Pakistan;Yes
+49;Estiven;Peli;5;M;4y 1m;EN C1, BSc IBM;CH;BS;No
+50;Jincui;Aketza;5;F;11y 2m;FCE, level B2, according to CV;CH;FR;No
+51;Ema;Hasnaa;5;M;~10y;C1 according to CV;CH;BE;No
+52;Lyndsay;Omayma;5;M;7y 6m;Master was already in EN;CH;France;Yes
+53;Kadija;Tamela;5;F;7y 4m;BA was already in EN;CH;AG;No
+54;Roberto;Niang;5;M;9y (incl apprentice);CAE, level C1, Grade C;CH;ZH;No
+55;Puebla;Orbelinda;6;M;~18y;BA was already in EN;CH;SO;No
+56;Nadin;Seferina;5;M;5y 10m;BA was already in EN;CH;BL;No
+57;Galadriel;Neculina;5;F;7y 9m;BA was already in EN;CH;AG;No
+58;Rosell;Nauman;5;;8y 3m;First certificate gemäss CV, gute EN Noten im BSc;CH;AG;No
+59;Magaret;Ching;5;M;6y 2m;FCE, level B2, grade C;CH;BE;No
+60;Michelle;Tanna;5;M;>2y 7m;level C2 gemäss CV;CH;AG;No
+61;Yanameyaia;Zambra;6;F;?;BA was already in EN;CH;Nigeria;Yes
+62;Noema;Salma;6;F;7y 10m;CAE, level C1, Grade C;CH;AG;No
+63;Aleksandra;Henedina;5;M;~7y 7m;FCE, level B2, grade C;CH;AR;No
+64;Jenee;Adoracion;6;M;8y 6m;high school diploma - USA;CH;SO;No
+65;Erhimo;Radha;5;M;;;CH;;
+66;Jakes;Ainara;5;M;4y 2m;BA was already in EN;CH;Kenya;Yes
+67;Blaine;Deepak;5;M;~3y;EUROCENTRES certificate, level C1;CH;AG;No
+68;Till;Earlie;5;F;5y 6m;BA was already in EN;CH;India;Yes
+69;Annis;Ayah;5;F;9y 10m;level C1-C2, grade C;CH;ZH;No
+70;Lenny;Nickolas;6;M;~20y;BA was already in EN;CH;Lebanon;Yes
+71;Gutier;Sunita;5;M;19y;level C1 according to CV;CH;BS;No
+72;Salobrar;Antonela;6;M;5m;BA was already in EN;CH;Lebanon;Yes
+73;Felipa;Harley;;M;;;CH;;
+74;Ludek;Gopala;7;F;5y 5m;FCE, level B2, grade B;CH;BS;No
+75;Riana;Caetano;6;M;;;CH;Nigeria;Yes
+76;Fadil;Anxos;6;F;;;CH;Ethiopia;Yes
+77;Rajae;Ilinca;6;F;;;CH;Nigeria;Yes
+78;Shady;Teodula;6;M;;;CH;Cameroon;Yes
+79;Mounir;Bobi;6;M;;;CH;Pakistan;Yes
+80;Ellsworth;Nogaye;6;M;;;CH;Turkey;Yes
+81;Fengying;Saskia;5;F;;;CH;BL;No
+82;Deborah;Shuhua;1;M;5y 10m;First cert., B2, grade C;CH;CH;BE
+83;Virgilio;Hourya;2;M;9y;BA was already in EN;CH;CH;AG
+84;Tibiabin;Orfelia;1;M;2y 10m;CAE, C1, Grade B;CH;CH;ZH
+85;Laima;Madina;1;M;~6y;mehrere Module im BA auf EN belegt;CH;CH;BL
+86;Pepi;Ronja;1;M;~9y;CAE, C1, Grade B;CH;CH;AG
+87;Stoian;Sang;1;M;10y 9m;B2, Grade C;CH;Italy;ZH
+88;Hayat;Sukhdev;1;F;11y 2m;BSc in EN;CH;CH;BE
+89;Noive;Chaia;1;M;10y 2m;?;CH;CH;AG
+90;Castillo;Saihou;1;M;9y;First cert., B2, grade C;CH;CH;BE
+91;Iker;Cherry;1;M;2y 9m;BSc in EN;CH;CH;ZH
+92;Josep;Yenia;1;F;7y 10m;BSc in EN, CAE, Grade C, Level C1;CH;CH;BE
+93;Salobral;Ramin;1;M;8y 8m;IELTS;CH;CH;BE
+94;Margarida;Haiying;2;M;4y 7m;ok;CH;CH;AG
+95;Mirko;Melca;1;M;11y 11m;Kommunikation im Schnitt 5.0;CH;CH;AG
+96;Kbir;Nelle;1;M;3y;?;CH;CH;BE
+97;Vilius;Dayana;1;M;13y 1m;Grade C;CH;CH;ZH
+98;Joyce;Lingyun;1;M;4y 8m;Traveling 9 months America and Asia;CH;Germany;ZH
+99;Zeltia;Fettah;2;F;2y 9m;?;CH;DE;DE
+100;Tianxiang;Yankuba;2;M;~8y?;Master was in EN;CH;Iran;ZH
+101;Dayani;Matha;2;F;13m;BA was already in EN;CH;Austria;BL
+102;Olay;Edivia;1;M;15y 4m;BA was already in EN;CH;India;BS
+103;Anissa;Jayone;1;M;;;CH;;
+104;Amaia;Dane;2;F;3y 8m;?;CH;CH;SO
+105;Antoanela;Xiaoqin;2;M;~7y;BA was already in EN;CH;Saudia Arabia;LU
+106;Borislava;Fiz;1;M;9y 9m;level C1-C2, Grade C;CH;CH;ZH
+107;Jemaa;Fatumata;2;M;7y 9m;siehe Bestätigung;CH;CH;SO
+108;Manjit;Jesse;2;M;9m;IELTS, B2;CH;Moldova;Moldova
+109;Elwanda;Lauralee;2;F;~9y;IELTS , B2, 6.0;CH;Iran;Iran
+110;Dragica;Segio;1;M;10y 1m;TOEIC;CH;CH;AG
+111;Yani;Djillali;3;F;2y 2m;BA was already in EN;CH;Nepal;Nepal
+112;Kateryna;Maelys;2;F;~22y;BSc in EN;CH;Zimbabwe;South Africa
+113;Traore;Kayleen;2;F;10y;BSc in EN;CH;India;India
+114;Kamel;Abubakar;1;M;~10y;BSc Note 4.5;CH;CH;ZH
+115;Elisabetta;Huria;1;M;;;CH;Russia;ZH
+116;Onofre;Yuxi;2;M;3y 9m;IELTS;CH;Turkey;Turkey
+117;Melva;Ayaz;1;;~9y;IELTS, B2;CH;Israel;Israel
+118;Beverlee;Badi;2;M;6y 9m;CAE, C1, Grade C;CH;CH;ZH
+119;Andrius;Giovany;4;M;6y 6m;BA was already in EN;China;Pakistan;Yes
+120;Bethel;Nikos;5;M;~6y;CAE, level C1, Grade C;Colombia;BE;No
+121;Julito;Rosenda;5;F;~8y;BA was already in EN;Costa Rica;BL;No
+122;Margo;Ginger;4;M;1y;gemäss CV FCE, B2;Costa Rica;BS;No
+123;Olesya;Johann;5;M;4y 2m;BA was already in EN;Ecuador;Kenya;Yes
+124;Maryory;Magalie;1;M;9y 7m;mehrere Module im BA auf EN belegt;Egypt;CH;AG
+125;Gianina;Shantae;5;M;~4y (part time);BSc: viele Module auf EN belegt;Egypt;ZH;No
+126;Abelina;Izara;5;F;;;Equatorial Guinea;;
+127;Ez;Loida;3;F;8y 11m;C1;Finland;BE;No
+128;Carrodilla;Werner;6;F;;;Finland;Nigeria;Yes
+129;Acoran;Anil;3;M;~10y;;Germany;BE;No
+130;Berardo;Barrett;6;M;~13y;?;Germany;BE;No
+131;Basilisa;Jacquelina;3;M;13y 6m;gemäss CV level B2/C1;Hungary;BE;No
+132;Alassana;Fatoma;5;M;~1y?;Delfin English School, 3 J.in Irland;Hungary;BE;No
+133;Kike;Orm;2;M;3y 3m;bachelor in EN;Hungary;China;BS
+134;Lisbet;Elicerio;3;M;11y 6m;?;Hungary;ZH;No
+135;Abderrahaman;Margaret;;M;;;Hungary;;
+136;Villa;Wilburn;5;M;10y 4m;certificate of Kings colleges, level pre-Adcanced;India;AG;No
+137;Lamine;Semen;4;;~3y;BSc BIT, FHNW;India;BL;No
+138;Nataliya;Sherley;5;F;2y 3m?;IELTS, level C1;India;BS;No
+139;Marisel;Jovelyn;5;M;5y 4m;BA was already in EN;India;BS;No
+140;Lisa;Avery;1;M;18y 1m;BA Wirtschaftskommunikation EN ~5.0;India;CH;BS
+141;Eberhard;Nadir;2;M;5y 8m;mehrere Module auf EN absolviert;India;CH;SO
+142;Pavla;Bendaoud;4;M;1m?;gemäss CV: IELTS 2018;India;France;?
+143;Tulia;Libin;2;F;2y 8m;BA was already in EN, TOEFL;India;India;GE
+144;Kseniia;Dimitru;4;M;;;India;Morocco;Yes
+145;Edmundo;Kirill;6;M;~12y;BA was already in EN;India;Nigeria;Yes
+146;Katixa;Veridiana;3;F;~10y;EN Module im BSc Studiengang;India;SO;No
+147;Greisy;Chelo;4;F;~2y;BA was already in EN;India;SO;No
+148;Bree;Elide;5;M;~8y;BA was already in EN;India;SO;No
+149;Assmaa;Luay;1;F;16y 6m;MSc in Computing (EN);Indonesia;CH;BE
+150;Khadre;Khurshid;3;M;12y;CAE, Grade B;Italy;AG;No
+151;Rajni;Haja;1;F;2y 2m;BEC Higher;Italy;CH;ZH
+152;Gorka;Yaniris;1;M;?;Advanced, C1, Grade B;Italy;CH;BS
+153;Svetozar;Manolita;3;F;~4y;exchange semester in Costa Rica;Kenya;SO;No
+154;Abdelmoughit;Margot;6;F;3y 11m (40%);BA was already in EN;Kenya;ZH;No
+155;Adrienne;Elmira;6;F;17y 6m;level C1 according to CV;Lebanon;AG;No
+156;Mehamed;Ted;4;M;10m;BA was already in EN;Lebanon;Portugal;Yes
+157;Maverick;Edgardo;4;M;~6y;BA was already in EN;Lebanon;ZH;No
+158;Chaimaa;Touraya;5;M;;;Lebanon;ZH;No
+159;Willie;Waldemar;3;F;3y 5m;mehrere Module auf EN absolviert;Morocco;AG;No
+160;Josefino;Floria;3;M;2y 3m;? (Aber language Travel);Morocco;BE;No
+161;Stivan;Natascia;1;M;8y 4m;First cert., B2, grade C;Nepal;CH;AG
+162;Grabiela;Zorka;1;M;13y;First cert. grade C;Nepal;CH;BE
+163;Vonda;Maykel;1;M;6y 1m;First cert.;Nepal;CH;LU
+164;Baselisa;Bendaoud;6;M;13y 8m;BA was already in EN;Nepal;Nigeria;Yes
+165;Jimena;Alleen;1;M;6y 8m;TEFL certificate;Nepal;Nigeria;Malaysia
+166;Suraj;Jacquiline;3;F;5y 7m;good EN grades in BSc;Nigeria;AG;No
+167;Crescencia;Annette;5;F;7y 2m;FCE, level B2, Grade B;Nigeria;AG;No
+168;Stacee;Laureen;6;M;~14y;BA was already in EN;Nigeria;BL;No
+169;Laurinda;Mimoune;1;;12y 8m;BA was already in EN;Nigeria;India;BL
+170;Nieva;Liduina;4;F;3y 5m;BA was already in EN;Nigeria;Sri Lanka;Yes
+171;Lusia;Mehboob;3;M;6y 7m + 4y Lehre;CAE, C1, Grade C;Nigeria;ZH;No
+172;Saleh;Oumar;3;F;13y 6m;FCE, B2, Grade C;Pakistan;AG;No
+173;Mariann;Trula;5;F;4y 7m;BA was already in EN;Pakistan;AG;No
+174;Sayoa;Wanderson;2;M;19 m;advanced english;Pakistan;Iran;ZH
+175;Agafia;Latanya;4;M;5y 4m;BSc BIT, FHNW;Pakistan;SO;No
+176;Ib;Dimas;6;M;;;Pakistan;South Africa;Yes
+177;Richie;Kissima;3;F;~12y;BA was already in EN;Poland;AG;No
+178;Efosa;Pius;5;M;16y 2m;proficiency according to CV;Portugal;BS;No
+179;Lizandra;Gedeon;1;M;18y 6m;TOEIC;Portugal;CH;ZH
+180;Julene;Bouabid;1;F;7y 8m;level B2;Russia;CH;LU
+181;Dirk;Xueling;1;F;6y 8m;Exchange semester in Australia;Russia;CH;LU
+182;Limber;Fadma;5;M;2y 1m;exchange semester in Ireland;Rwanda;ZH;No
+183;Iokin;Pep;6;M;?;BA was already in EN;Slovakia;ZH;No
+184;Willa;Fatimetou;3;F;8y 7m;FCE, B2, Grade C;Spain;AG;No
+185;Elfidio;Chomicha;4;M;~5y;BA already in EN;Spain;AG;No
+186;Attila;Winfred;3;M;8y 8m;3 Monate EN School USA;Sri Lanka;BE;No
+187;Tamsir;Heli;6;F;;;UK;Nigeria;Yes
+188;Igotz;Jhonattan;3;M;~12y;BA was already in EN;Zimbabwe;AG;No
+189;Keyra;Sulamita;1;F;11y 7m;BA was already in EN;Zimbabwe;CH;AG
+190;Abril;Yoel;4;F;-;x§x;Zimbabwe;ZH;No
+191;Khadouj;Yerena;3;M;10y 1m;TOEIC;;AG;No
+192;Eligijus;Abdel;3;M;9y 11m;gemäss CV B2;;AG;No
+193;Randi;Myra;3;M;8y 8m;mehrere Module auf EN absolviert;;AG;No
+194;Armelle;Boyd;4;M;5y 3m;Englisch in BSc, Note 5.1;;AG;No
+195;Mariel;Sidnei;3;M;2y 4m;?;;AG;No
+196;Neyen;Xiufen;3;M;~3y;EUROCENTRES certificate, level C1;;AG;No
+197;Babak;Kyla;4;F;3y;other certificate;;AG;No
+198;Maximiana;Doudou;5;M;~5y;BA was already in EN;;AG;No
+199;Eugeniya;Melonie;1;M;3y 2m;advanced , C1;;Azerbaijan;ZH
+200;Sondos;Chaimaa;2;M;3y 4m;IELTS, level B2;;Bangladesh;Bangladesh
+201;Araitz;Farha;3;F;3y 1m;BA was already in EN;;BE;No
+202;Violeta;Yongfu;3;F;9y 11m;Business English Certificate, level C1;;BE;No
+203;Hadjira;Sania;4;M;5y 6m;CAE, Grade A;;BE;No
+204;Joycelyn;Athmane;5;M;9y;C1 according to CV;;BE;No
+205;Dariusz;Jacqui;3;F;was kann alles angerechnet werden?;gemäss CV: level C1;;BL;No
+206;Nirmal;Lawanda;3;M;5y 5m;BA was already in EN;;BL;No
+207;Fdila;Sarabel;1;F;;;;Bosnia;BL
+208;Abdelouhab;Maravilla;3;M;16y 4m;?;;BS;No
+209;Corazon;Josu;3;F;4y 7m;gemäss CV level C1/2;;BS;No
+210;Dragos;Yone;4;F;9y 5m;BA was already in EN;;BS;No
+211;Oumayma;Malle;5;M;~3y;gemäss CV C1;;BS;No
+212;Mansor;Roald;5;M;~4 y;FCE, level B2, grade C;;BS;No
+213;Soledad;Midori;5;M;~15y;?;;BS;No
+214;Irema;Kandeh;5;F;3y 8m;CAE, level C1, Grade C;;BS;No
+215;Aiman;Ismelda;5;F;~16y 6m;1y internship USA;;BS;No
+216;Olegaria;Jonadab;4;F;2y 3m;BA was already in EN;;Cameroon;Yes
+217;Trinidad;Saimon;1;F;11y 4m;;;CH;ZH
+218;Roselyn;Neptali;1;M;20y 11m;EF SET, B2;;CH;AG
+219;Charifa;Annalisa;1;F;10y 8m;CAE, C1, Grade C;;CH;AG
+220;Soulimane;Shaolin;1;M;~10y;mehrere Module im BA auf EN belegt;;CH;SO
+221;Chaymaa;Lorine;1;M;4y 7m;BA was already in EN;;CH;BL
+222;Adrianne;Jianxiao;1;M;4y 2m;mehrere Module im BA auf EN belegt+ Auslandsemester;;CH;BE
+223;Colton;Suk;1;M;6y 5m;CAE, C1, Grade C;;CH;SO
+224;Piedad;Gennady;1;M;~9y;B2, C1, BSc in EN;;CH;AG
+225;Taina;Ayan;1;M;8y 9m;BA was already in EN;;CH;BL
+226;Lyla;Raluca;1;F;12y 5m;FCE, level B2, Grade C;;CH;AG
+227;Tamou;Elton;1;M;7y 7m;FCE, level C1, Grade A;;CH;BE
+228;Yuefen;Yuhang;1;F;8y 1m;BA Wirtschaftskommunikation EN ~5.0;;CH;BS
+229;Shamim;Cinda;2;F;6y 9m;Module auf Englisch, bei Accenture Eng.;;CH;ZH
+230;Thami;Dexter;2;M;~10y;internship in China?;;CH;ZH
+231;Melany;Benilde;1;M;14y 2m;level C1;;CH;ZH
+232;Karly;Martynas;1;M;4y;No proof of English;;CH;LU
+233;Suevia;Kerri;1;M;;;;CH;ZH
+234;Noreddine;Myla;3;F;11y 3m;B2, Grade C;;CH;AG
+235;Yerson;Geminiano;6;M;;;;China;Yes
+236;Drusila;Wm;3;M;9y 6m;gemäss CV C1/C2;;DE;No
+237;Alek;Babucarr;3;M;7y 10m;CAE, Grade B;;DE;No
+238;Sebastian;Jue;1;M;5y 9m;BSc in EN;;Egypt;Germany
+239;Lingxiao;Samanda;2;F;6y 5m;BA was already in EN;;Egypt;Egypt
+240;Meire;Xuebin;5;M;13y 5m;BA was already in EN;;FR;No
+241;Constantino;Marietta;5;F;4y 2m;BA was already in EN;;France;Yes
+242;Bharata ;Tawanna;1;F;3y 3m;English mit Note gut im Bachelor;;Germany;BL
+243;Dafina;Anzelika;2;;2y 9m;BA was already in EN;;Ghana;Ghana
+244;Ernesta;Fernande;2;M;14y 5m;BA was already in EN;;Ghana;Ghana
+245;Nicola;Yann;1;M;2y 9m;IELTS;;Greece;BS
+246;Aristides;Stepan;6;M;3y 10m;BA was already in EN;;India;Yes
+247;Donaciones;Joan;6;M;~8y;IELTs, level B2;;India;Yes
+248;Yusef;Aurina;1;M;~11y;BA was already in EN;;India;BL
+249;Suyapa;Guojun;2;F;3y 8m (~4y);BA was already in EN;;India;BL
+250;Taras;Saad;2;;4y 3m;BA was already in EN;;India;India
+251;Nuha;Selin;4;F;;;;Indonesia;Yes
+252;Mel;Darrel;2;F;13y;IELTS, C1;;Iran;Iran
+253;Nahima;Xiaobin;6;M;1y 2m;C1 according to CV;;Italy;No
+254;Laxman;Ilyas;3;F;~6y;exchange semester in Canada;;JU;No
+255;Baljit;Hue;3;F;~2y;gemäss CV level B2;;JU;No
+256;Jasbir;Ievgenii;1;M;~5y;BA was already in EN;;Lebanon;Lebanon
+257;Igon;Etelvino;1;M;;;;Macedonia;ZH
+258;Maysam;Janetta;4;F;1y 7m;BA was already in EN;;Nepal;Yes
+259;Sandrine;Sabina;8;M;10y;BA was already in EN;;Nigeria;Yes
+260;Andreea;Abdeljalal;6;F;~8y;BA was already in EN;;Nigeria;Yes
+261;Dorie;Edelmira;2;M;;;;Nigeria;Nigeria
+262;Vi;Fred;4;F;10m;BA was already in EN, level B2;;Pakistan;Yes
+263;Ahinoam;Joaquina;5;M;~6y 5m;IELTS, level C1;;SG;No
+264;Zenobia;Marinica;4;F;~1.5y;? Bachelor Trinational;;SO;No
+265;Yacouba;Crispulo;3;M;9y 1m;FCE, Grade B, B2;;SO;No
+266;Doralia;Javaid;5;F;4y 6m;BA was already in EN;;SO;No
+267;Valdemir;Chourouk;4;F;;;;Uganda;Uganda
+268;Yohanny;Augustine;1;F;11y 8m;BA was already in EN;;UK;BS
+269;Lia;Ludie;2;F;1y 8m;BA was already in EN;;UK;ZH
+270;Gocha;Lindaura;2;F;~17y;lived and worked in New York;;USA;BS
+271;Yero;Lucero;5;F;?;IELTS, level C1;;ZG;No
+272;Vina;Viktoriia;3;F;;;;ZH;No
+273;Amanda;Nehad;3;M;~7y;CAE, C1, Grade C;;ZH;No
+274;Jhan;Igone;4;M;~18y;IETLS;;ZH;No
+275;Ivelisse;Nada;3;M;11y 3m;FCE, Grade C, B2;;ZH;No
+276;Merlyn;Javad;4;F;4y;EN Modul während Studium;;ZH;No
+277;Ivan;Zulaica;3;F;2y 1m;exchange semester in Ireland;;ZH;No
+278;Chamaida;Helga;4;M;;;;ZH;No
+279;Eliz;Airan;5;F;4y 5m (50%);MSC in English;;ZH;No
+280;Zack;Domenica;6;M;~3y 8m;BA was already in EN;;ZH;No
+281;Darc;Alberta;5;M;;;;ZH;No
+282;Rishi;Haibin;9;F;~5y 5m;FCE, level B2, Grade C;;ZH;No
+283;Ismael;Venancio;3;M;;;;;
+284;Anitz;Bangaly;5;M;;;;;
+285;Valdemar;Hadhoum;;M;;;;;

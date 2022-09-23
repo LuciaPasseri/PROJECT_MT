@@ -1,0 +1,113 @@
+﻿status_id;status;condition_to_meet;BusinessProcessManagement;BusinessAdministration;InformationSystem;acceptance
+1;accepted informed;;-;-;X;1
+2;withdrawn;;X;-;X;2
+3;accepted informed;;X;X;X;2
+4;accepted informed;;;-;-;2
+5;withdrawn;;X;X;-;3
+6;accepted informed;;;X;-;2
+7;accepted under condition informed;Bachelor at least 4.6;X;-;X;4
+8;accepted informed;;R;-;X;1
+9;accepted informed;;;-;-;4
+10;withdrawn;;;;;5
+11;accepted informed;;X;-;X;6
+12;accepted informed;;X;-;X;2
+13;accepted informed;;x;x;-;6
+14;accepted informed;;R;-;X;4
+15;accepted informed;Bachelor at least 4.6;X;-;R;2
+16;accepted under condition informed;Bachelor at least 4.8;-;-;-;4
+17;accepted under condition informed;Bachelor finished;-;-;-;4
+18;accepted informed;;X;-;R;2
+19;accepted informed;;-;-;-;2
+20;accepted under condition informed;Bachelor finished;X;-;X;2
+21;accepted under condition informed;Bachelor finished;-;-;-;2
+22;accepted under condition informed;Bachelor at least 4.6;X;-;X;2
+23;accepted informed;;X;X;-;3
+24;accepted under condition informed;;X;-;X;2
+25;accepted informed;;X;-;X;4
+26;accepted informed;;X;-;-;2
+27;accepted informed;;R;X;R;6
+28;accepted informed;;X;-;-;6
+29;accepted under condition informed;Bachelor finished;X;-;X;6
+30;withdrawn;;R;-;-;2
+31;rejected informed;;;;;5
+32;withdrawn;;;;;7
+33;accepted informed;;R;-;X;2
+34;accepted informed;;X;-;X;8
+35;accepted informed;;-;-;-;1
+36;withdrawn;;X;R;-;2
+37;withdrawn;;X;X;-;2
+38;withdrawn;;X;-;X;1
+39;rejected informed;;;;;9
+40;withdrawn;;X;-;R;2
+41;accepted under condition informed;Bachelor finished;;-;-;4
+42;accepted informed;Bachelor at least 4.6;;X;-;4
+43;accepted informed;;;-;X;2
+44;accepted informed;;;X;X;2
+45;accepted informed;;;R;-;2
+46;accepted informed;;;X;X;6
+47;accepted informed;;;X;-;6
+48;withdrawn;Bachelor at least 4.8;;-;-;4
+49;withdrawn;;;X;-;10
+50;withdrawn;;;-;-;2
+51;withdrawn;Bachelor finished;;;;4
+52;withdrawn;;;X;X;4
+53;withdrawn;;;X;X;2
+54;withdrawn;;;X;-;2
+55;withdrawn;;;X;X;6
+56;withdrawn;;;X;-;7
+57;withdrawn;;;X;X;7
+58;withdrawn;;;R;-;3
+59;withdrawn;;;X;X;3
+60;withdrawn;;;-;-;4
+61;accepted informed;;X;-;X;1
+62;withdrawn;Bachelor finished;X;-;X;2
+63;accepted informed;;;-;X;11
+64;accepted informed;;-;-;R;2
+65;withdrawn;;X;-;-;5
+66;accepted informed;;X;X;-;2
+67;rejected informed;;;;;12
+68;accepted;;;;;5
+69;withdrawn;Bachelor at least 4.6;;X;-;2
+70;rejected;;;;;13
+71;withdrawn;;X;-;X;7
+72;withdrawn;;X;-;X;14
+73;withdrawn;Bachelor finished;-;-;-;1
+74;withdrawn;Bachelor finished;X;X;-;7
+75;accepted informed;;-;R;X;2
+76;accepted informed;;-;-;X;2
+77;accepted informed;;;X;X;4
+78;accepted under condition informed;Bachelor at least 4.6;-;-;-;2
+79;accepted informed;;-;-;-;4
+80;accepted informed;Bachelor at least 4.6;;-;-;2
+81;accepted under condition informed;Bachelor at least 4.6;-;-;X;4
+82;accepted under condition informed;Bachelor finished;R;-;X;2
+83;accepted informed;;R;-;X;15
+84;withdrawn;;X;X;-;4
+85;withdrawn;;X;-;X;16
+86;accepted informed;;X;-;-;3
+87;withdrawn;;X;-;R;15
+88;accepted under condition informed;Bachelor finished;-;X;X;4
+89;rejected informed;;;;;17
+90;accepted informed;;X;-;R;6
+91;accepted informed;;;X;-;4
+92;withdrawn;;;R;-;4
+93;withdrawn;Bachelor at least 4.6;;-;-;2
+94;withdrawn;;;-;-;5
+95;accepted informed;;R;-;X;6
+96;withdrawn;;;R;-;18
+97;withdrawn;;;X;X;19
+98;accepted informed;;X;X;X;6
+99;withdrawn;;X;X;;7
+100;withdrawn;;;X;-;4
+101;rejected informed;;Grade too low;X;-;17
+102;accepted informed;;;x;x;5
+103;withdrawn;;X;X;-;6
+104;withdrawn;;X;X;-;20
+105;withdrawn;;X;X;R;1
+106;rejected informed;;Grade too low, cannot compensate subject mismatch;;;9
+107;withdrawn;;X;-;-;2
+108;accepted informed;;-;-;X;5
+109;accepted informed;;X;X;X;3
+110;accepted informed;;X;-;X;21
+111;withdrawn;;X;-;-;1
+112;accepted informed;;;;;5

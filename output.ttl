@@ -1,0 +1,36 @@
+<http://data.example.com/student_to_status/1>
+        a       <http://example.com/ns#Student_to_Status> ;
+        <http://example.com/ns#subscription>
+                <http://data.example.com/status_subscription/1> , <http://data.example.com/student/1> .
+
+<http://data.example.com/grade/4.7>
+        a       <http://example.com/ns#Grade> .
+
+<http://data.example.com/experience/10y%203m>
+        a       <http://example.com/ns#Experience> .
+
+<http://data.example.com/university/1>
+        a       <http://example.com/ns#University> .
+
+<http://data.example.com/subscription/5>
+        a       <http://example.com/ns#Master_subscription> .
+
+<http://data.example.com/student_to_university/1>
+        a       <http://example.com/ns#Student_to_University> ;
+        <http://example.com/ns#subscription>
+                <http://data.example.com/grade/4.7> , <http://data.example.com/university/1> , <http://data.example.com/student/1> .
+
+<http://data.example.com/student/1>
+        a       <http://example.com/ns#Student> ;
+        <http://example.com/ns#experience>
+                <http://data.example.com/experience/10y%203m> ;
+        <http://example.com/ns#subscription>
+                <http://data.example.com/subscription/5> .
+
+<http://data.example.com/acceptance/1>
+        a       <http://example.com/ns#Student_acceptance> .
+
+<http://data.example.com/status_subscription/1>
+        a       <http://example.com/ns#Status_subscription> ;
+        <http://example.com/ns#subscription>
+                <http://data.example.com/acceptance/1> .

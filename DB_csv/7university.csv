@@ -1,0 +1,375 @@
+﻿university_id;Bachelor;University (Short);"University
+(H+, H-, H+/-)
+(H+, H-, H+/-)"
+1;Wirtschaftsinformatik;HSLU;H+
+2;Wirtschaftsinformatik;;H+
+3;Bachelor of Commerce;;H+
+4;Business Administration;;H+
+5;Engineering;;H+
+6;;;H+
+7;Business & Economics;FHNW;H+
+8;Betriebsökonomie;;H+
+9;Communication Engineering;;
+10;Management Science;;H+
+11;Engineering and Management;;H+
+12;Business Information Technology;;H+
+13;Software Engineering;;H+
+14;Computer Science;;H+
+15;Business Engineering;;H+
+16;Economics;;H+
+17;International Hospitality Management;;H+
+18;Computer Sciences;;H+
+19;Technical Informatics;;H+
+20;Advertising;;H+
+21;Business and Economics;;H+
+22;International Studies;;H+
+23;Accounting;;H+
+24;Bachelor of Engineering;;H+
+25;Computer Science and Information Technology;;H+
+26;Marketing Management;;H+
+27;Coporate Management;;H+
+28;Business Management Studies;;H+
+29;Accounting and Business Information Systems;;H+
+30;German Language and Literature and in Media Studies;;H+
+31;Management;;
+32;Business Engineering;FHNW;H+
+33;Computer Science;HSLU;H+
+34;Business Administration;BFH;H+
+35;Computer Science;Bogota;H+
+36;Information Technology;FHNW;H+
+37;Business Informatics;ZHAW;H+
+38;Bachelor of Arts;;H+
+39;Accounting;FHNW;H+
+40;Computer Science;FHNW;H+
+41;Business Administration;FHNW;H+
+42;Wirtschaftsinformatik;BFH;H+
+43;BBA in Tourism and Hospitality;FHNW;H+
+44;Technical Informatics;FHSG;H+
+45;B.A English;;
+46;Computer Networks and Telecommunications;;H+
+47;Betriebsökonomie;HWZ;H+
+48;Business Administration;;
+49;Betriebsökonomie;;
+50;Industrial Relations and Personnel Management;;
+51;Engineering and Management;;
+52;Economics;;
+53;Computer Science;;
+54;Computer Science and Engineering;;H+
+55;Business & Economic;;H+
+56;Computer Science and Psychologie;;H+
+57;Management;;H+
+58;Business Information Technology, FHNW;;H+
+59;Business Administration (IM);;H+
+60;Internationale Betriebswirtschaft;;H+
+61;BSc in Accounting & Finance;;H+
+62;DD IM;;H+
+63;Business Communications;;H+
+64;Mechanical;;H+
+65;International IT Management;;H+
+66;Information Technology;;
+67;Telecommunications Technologist;;H+
+68;Accountancy;BFH;H+
+69;Information Technology and Management;FHNW;H+
+70;Environmental Economics and BA;;H+
+71;Information Technology;BFH;H+
+72;Business Information Technology;;
+73;Business Computing Solution;;
+74;Information Technology;;H+
+75;Wirtschaftsinformatik;FHNW;H+
+76;Business Administration;HSLU;H+
+77;Wirtschaftsingenieurwesen;;H+
+78;Design Management;;H+
+79;Mechatronics trinational;;H+
+80;Computer Engineering Software;FHNW;H+
+81;Language and Culture;;H+
+82;Business Management Technology;;H+
+83;International Economics and Trade;FHNW;H+
+84;Sociology with Philosophy;;H+
+85;Industrial Engineering, DD ITB;;H+
+86;Maschienenbau;;H+
+87;Information Systems;;H+
+88;Computer Science and Engineering;FHNW;H+
+89;DD IM;FHNW;H+
+90;Business Information Systems;;H+
+91;Business Information Technology;FHNW;H+
+92;;;
+93;Commerce;;H+
+94;Bachelor in Engineering;;H+
+95;Accounting;BFH;H+
+96;Management and Informatics;;H+
+97;Electronics and Communication;;H+
+98;Business Informatics;;H+
+99;Business Administration;Uni Basel;H+
+100;Library and Information Science;FHNW;H+
+101;Industrial Relations and Personnel Management;;H+
+102;Computer Engineering;;H+
+103;Bachelor in Engineering;;
+104;Agricultural and Bioresources Engineering;;H+
+105;Information Technology and Management;;H+
+106;Business Administration;SUPSI;H+
+107;Communications;;H+
+108;Sociology with Philosophy;;
+109;Technology in Computer Science and Engineering;;H+
+110;Mechanical Engineering;FHNW;H+
+111;Engineering;;
+112;Wirtschaftsinformatik;;
+113;Communication Engineering;;H+
+114;Marketing Management;;
+115;Computer Engineering;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;

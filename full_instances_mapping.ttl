@@ -1,0 +1,20 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix ex: <http://example.com/ns#> .
+
+<#TriplesMap1>
+    rr:logicalTable [ rr:tableName "experience" ];
+    rr:subjectMap [
+        rr:template "http://data.example.com/experience/{experience}";
+        rr:class ex:Experience;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ex:experience;
+        rr:objectMap [ rr:column "experience" ];
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ex:exp_score;
+        rr:objectMap [ rr:column "exp (++,+,-,0)" ];
+    ].
+	
+<#a> rr:objectMap <#b> .
+<#b> rr:column "experience" .

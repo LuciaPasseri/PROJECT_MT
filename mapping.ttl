@@ -1,0 +1,232 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix ex: <http://example.com/ns#> .
+	
+<#TriplesMap1>
+    rr:logicalTable <#studentTableView>;
+    rr:subjectMap [
+        rr:template "http://data.example.com/student/{student_id}";
+        rr:class ex:Student;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ex:experience;
+        rr:objectMap [
+            rr:parentTriplesMap <#TriplesMap2>;
+            rr:joinCondition [
+                rr:child "experience";
+                rr:parent "experience";
+            ];
+        ];
+    ];
+    rr:predicateObjectMap [
+        rr:predicate ex:subscription;
+        rr:objectMap [
+            rr:parentTriplesMap <#TriplesMap3>;
+            rr:joinCondition [
+                rr:child "subscription";
+                rr:parent "subscription_id";
+            ];
+        ];
+    ].
+
+<#TriplesMap2>
+    rr:logicalTable <#experienceTableView>;
+    rr:subjectMap [
+        rr:template "http://data.example.com/experience/{experience}";
+        rr:class ex:Experience;
+    ].
+
+<#TriplesMap3>
+    rr:logicalTable <#master_subscriptionTableView>;
+    rr:subjectMap [
+        rr:template "http://data.example.com/subscription/{subscription_id}";
+        rr:class ex:Master_subscription;
+    ].
+
+<#TriplesMap4>
+    rr:logicalTable <#student_acceptanceTableView>;
+    rr:subjectMap [
+        rr:template "http://data.example.com/acceptance/{acceptance_id}";
+        rr:class ex:Student_acceptance;
+    ].
+
+<#TriplesMap5>
+    rr:logicalTable <#status_subscriptionTableView>;
+    rr:subjectMap [
+        rr:template "http://data.example.com/status_subscription/{status_id}";
+        rr:class ex:Status_subscription;
+    ];
+        rr:predicateObjectMap [
+        rr:predicate ex:subscription;
+        rr:objectMap [
+            rr:parentTriplesMap <#TriplesMap4>;
+            rr:joinCondition [
+                rr:child "acceptance";
+                rr:parent "acceptance_id";
+            ];
+        ];
+    ].
+
+<#TriplesMap6>
+    rr:logicalTable <#student_to_statusTableView>;
+    rr:subjectMap [
+        rr:template "http://data.example.com/student_to_status/{student}";
+        rr:class ex:Student_to_Status;
+    ];
+        rr:predicateObjectMap [
+        rr:predicate ex:subscription;
+        rr:objectMap [
+            rr:parentTriplesMap <#TriplesMap5>;
+            rr:joinCondition [
+                rr:child "status";
+                rr:parent "status_id";
+            ];
+        ];
+    ];
+        rr:predicateObjectMap [
+        rr:predicate ex:subscription;
+        rr:objectMap [
+            rr:parentTriplesMap <#TriplesMap1>;
+            rr:joinCondition [
+                rr:child "student";
+                rr:parent "student_id";
+            ];
+        ];
+    ].
+
+<#TriplesMap7>
+    rr:logicalTable <#gradeTableView>;
+    rr:subjectMap [
+        rr:template "http://data.example.com/grade/{grade}";
+        rr:class ex:Grade;
+    ].
+
+<#TriplesMap8>
+    rr:logicalTable <#universityTableView>;
+    rr:subjectMap [
+        rr:template "http://data.example.com/university/{university_id}";
+        rr:class ex:University;
+    ].
+
+<#TriplesMap9>
+    rr:logicalTable <#student_to_universityTableView>;
+    rr:subjectMap [
+        rr:template "http://data.example.com/student_to_university/{student}";
+        rr:class ex:Student_to_University;
+    ];
+        rr:predicateObjectMap [
+        rr:predicate ex:subscription;
+        rr:objectMap [
+            rr:parentTriplesMap <#TriplesMap7>;
+            rr:joinCondition [
+                rr:child "grade";
+                rr:parent "grade";
+            ];
+        ];
+    ];
+        rr:predicateObjectMap [
+        rr:predicate ex:subscription;
+        rr:objectMap [
+            rr:parentTriplesMap <#TriplesMap8>;
+            rr:joinCondition [
+                rr:child "university";
+                rr:parent "university_id";
+            ];
+        ];
+    ];
+        rr:predicateObjectMap [
+        rr:predicate ex:subscription;
+        rr:objectMap [
+            rr:parentTriplesMap <#TriplesMap1>;
+            rr:joinCondition [
+                rr:child "student";
+                rr:parent "student_id";
+            ];
+        ];
+    ].
+
+
+##################################################################################
+##################################################################################
+
+<#studentTableView> rr:sqlQuery """
+        SELECT student_id,
+               lastName,
+               firstName,
+               subscription,
+               gender,
+               experience,
+               english,
+               citizenship,
+               cantonOfResidence,
+               visum
+        FROM student
+        WHERE student_id=1
+        """.
+
+<#experienceTableView> rr:sqlQuery """
+        SELECT experience,
+               'exp(++,+,-,0)'
+        FROM experience
+        WHERE experience='10y 3m'
+        """.
+
+<#master_subscriptionTableView> rr:sqlQuery """
+        SELECT subscription_id,
+               start,
+               FT,
+               PT
+        FROM master_subscription
+        WHERE subscription_id=5
+        """.
+
+<#student_acceptanceTableView> rr:sqlQuery """
+        SELECT acceptance_id,
+               HoP,
+               deputy_HoP,
+               interview
+        FROM student_acceptance
+        WHERE acceptance_id=1
+        """.
+
+<#status_subscriptionTableView> rr:sqlQuery """
+        SELECT status_id,
+               status,
+               acceptance,
+               condition_to_meet,
+               BusinessProcessManagement,
+               BusinessAdministration,
+               InformationSystem
+        FROM status_subscription
+        WHERE status_id=1
+        """.
+
+<#student_to_statusTableView> rr:sqlQuery """
+        SELECT student,
+               status
+        FROM student_to_status
+        WHERE student=1
+        """.
+
+<#gradeTableView> rr:sqlQuery """
+        SELECT grade,
+               'grade(++,+,-,0)'
+        FROM grade
+        WHERE grade='4.7'
+        """.
+
+<#universityTableView> rr:sqlQuery """
+        SELECT university_id,
+               bachelor,
+               'university(short)',
+               'uni(H+,H-,H+/-)'
+        FROM university
+        WHERE university_id=1
+        """.
+
+<#student_to_universityTableView> rr:sqlQuery """
+        SELECT student,
+               university,
+               grade
+        FROM student_to_university
+        WHERE student=1
+        """.

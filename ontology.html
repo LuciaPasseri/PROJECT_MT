@@ -1,0 +1,137 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-network@latest/styles/vis-network.css" type="text/css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vis-network@latest/dist/vis-network.min.js"> </script>
+<center>
+<h1>Ontology visualization</h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 1300px;
+            height: 500px;
+            background-color: #000000;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+        #config {
+            float: left;
+            width: 400px;
+            height: 600px;
+        }
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<div id = "config"></div>
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"font": {"color": "#ffffff"}, "id": "http://data.example.com/student_to_university/1", "label": "http://data.example.com/student_to_university/1", "shape": "dot", "size": 10}, {"font": {"color": "#ffffff"}, "id": "http://data.example.com/university/1", "label": "http://data.example.com/university/1", "shape": "dot", "size": 10}, {"font": {"color": "#ffffff"}, "id": "http://data.example.com/student/1", "label": "http://data.example.com/student/1", "shape": "dot", "size": 10}, {"font": {"color": "#ffffff"}, "id": "http://example.com/ns#Student_to_University", "label": "http://example.com/ns#Student_to_University", "shape": "dot", "size": 10}, {"font": {"color": "#ffffff"}, "id": "http://data.example.com/grade/4.7", "label": "http://data.example.com/grade/4.7", "shape": "dot", "size": 10}, {"font": {"color": "#ffffff"}, "id": "http://example.com/ns#University", "label": "http://example.com/ns#University", "shape": "dot", "size": 10}, {"font": {"color": "#ffffff"}, "id": "http://data.example.com/status_subscription/1", "label": "http://data.example.com/status_subscription/1", "shape": "dot", "size": 10}, {"font": {"color": "#ffffff"}, "id": "http://example.com/ns#Status_subscription", "label": "http://example.com/ns#Status_subscription", "shape": "dot", "size": 10}, {"font": {"color": "#ffffff"}, "id": "http://data.example.com/acceptance/1", "label": "http://data.example.com/acceptance/1", "shape": "dot", "size": 10}, {"font": {"color": "#ffffff"}, "id": "http://data.example.com/student_to_status/1", "label": "http://data.example.com/student_to_status/1", "shape": "dot", "size": 10}, {"font": {"color": "#ffffff"}, "id": "http://example.com/ns#Student_to_Status", "label": "http://example.com/ns#Student_to_Status", "shape": "dot", "size": 10}, {"font": {"color": "#ffffff"}, "id": "http://data.example.com/experience/10y%203m", "label": "http://data.example.com/experience/10y%203m", "shape": "dot", "size": 10}, {"font": {"color": "#ffffff"}, "id": "http://example.com/ns#Student", "label": "http://example.com/ns#Student", "shape": "dot", "size": 10}, {"font": {"color": "#ffffff"}, "id": "http://data.example.com/subscription/5", "label": "http://data.example.com/subscription/5", "shape": "dot", "size": 10}, {"font": {"color": "#ffffff"}, "id": "http://example.com/ns#Experience", "label": "http://example.com/ns#Experience", "shape": "dot", "size": 10}, {"font": {"color": "#ffffff"}, "id": "http://example.com/ns#Student_acceptance", "label": "http://example.com/ns#Student_acceptance", "shape": "dot", "size": 10}, {"font": {"color": "#ffffff"}, "id": "http://example.com/ns#Master_subscription", "label": "http://example.com/ns#Master_subscription", "shape": "dot", "size": 10}, {"font": {"color": "#ffffff"}, "id": "http://example.com/ns#Grade", "label": "http://example.com/ns#Grade", "shape": "dot", "size": 10}]);
+        edges = new vis.DataSet([{"from": "http://data.example.com/student_to_university/1", "label": 1, "to": "http://data.example.com/university/1", "weight": 1}, {"from": "http://data.example.com/student_to_university/1", "label": 1, "to": "http://data.example.com/student/1", "weight": 1}, {"from": "http://data.example.com/student_to_university/1", "label": 1, "to": "http://example.com/ns#Student_to_University", "weight": 1}, {"from": "http://data.example.com/student_to_university/1", "label": 1, "to": "http://data.example.com/grade/4.7", "weight": 1}, {"from": "http://data.example.com/university/1", "label": 1, "to": "http://example.com/ns#University", "weight": 1}, {"from": "http://data.example.com/status_subscription/1", "label": 1, "to": "http://example.com/ns#Status_subscription", "weight": 1}, {"from": "http://data.example.com/status_subscription/1", "label": 1, "to": "http://data.example.com/acceptance/1", "weight": 1}, {"from": "http://data.example.com/student_to_status/1", "label": 1, "to": "http://example.com/ns#Student_to_Status", "weight": 1}, {"from": "http://data.example.com/student_to_status/1", "label": 1, "to": "http://data.example.com/status_subscription/1", "weight": 1}, {"from": "http://data.example.com/student_to_status/1", "label": 1, "to": "http://data.example.com/student/1", "weight": 1}, {"from": "http://data.example.com/student/1", "label": 1, "to": "http://data.example.com/experience/10y%203m", "weight": 1}, {"from": "http://data.example.com/student/1", "label": 1, "to": "http://example.com/ns#Student", "weight": 1}, {"from": "http://data.example.com/student/1", "label": 1, "to": "http://data.example.com/subscription/5", "weight": 1}, {"from": "http://data.example.com/experience/10y%203m", "label": 1, "to": "http://example.com/ns#Experience", "weight": 1}, {"from": "http://data.example.com/acceptance/1", "label": 1, "to": "http://example.com/ns#Student_acceptance", "weight": 1}, {"from": "http://data.example.com/subscription/5", "label": 1, "to": "http://example.com/ns#Master_subscription", "weight": 1}, {"from": "http://data.example.com/grade/4.7", "label": 1, "to": "http://example.com/ns#Grade", "weight": 1}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics",
+            "layout"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "layout": {
+        "hierarchical": {
+            "blockShifting": true,
+            "edgeMinimization": true,
+            "enabled": true,
+            "levelSeparation": 150,
+            "parentCentralization": true,
+            "sortMethod": "hubsize",
+            "treeSpacing": 200
+        },
+        "improvedLayout": true,
+        "randomSeed": 0
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+        // if this network requires displaying the configure window,
+        // put it in its div
+        options.configure["container"] = document.getElementById("config");
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
