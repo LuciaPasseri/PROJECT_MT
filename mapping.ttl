@@ -149,84 +149,55 @@
 ##################################################################################
 
 <#studentTableView> rr:sqlQuery """
-        SELECT student_id,
-               lastName,
-               firstName,
-               subscription,
-               gender,
-               experience,
-               english,
-               citizenship,
-               cantonOfResidence,
-               visum
+        SELECT *
         FROM student
         WHERE student_id=1
         """.
 
 <#experienceTableView> rr:sqlQuery """
-        SELECT experience,
-               'exp(++,+,-,0)'
+        SELECT *
         FROM experience
         WHERE experience='10y 3m'
         """.
 
 <#master_subscriptionTableView> rr:sqlQuery """
-        SELECT subscription_id,
-               start,
-               FT,
-               PT
+        SELECT *
         FROM master_subscription
         WHERE subscription_id=5
         """.
 
 <#student_acceptanceTableView> rr:sqlQuery """
-        SELECT acceptance_id,
-               HoP,
-               deputy_HoP,
-               interview
+        SELECT *
         FROM student_acceptance
         WHERE acceptance_id=1
         """.
 
 <#status_subscriptionTableView> rr:sqlQuery """
-        SELECT status_id,
-               status,
-               acceptance,
-               condition_to_meet,
-               BusinessProcessManagement,
-               BusinessAdministration,
-               InformationSystem
+        SELECT *
         FROM status_subscription
         WHERE status_id=1
         """.
 
 <#student_to_statusTableView> rr:sqlQuery """
-        SELECT student,
-               status
+        SELECT *
         FROM student_to_status
         WHERE student=1
         """.
 
 <#gradeTableView> rr:sqlQuery """
-        SELECT grade,
-               'grade(++,+,-,0)'
+        SELECT *
         FROM grade
         WHERE grade='4.7'
         """.
 
 <#universityTableView> rr:sqlQuery """
-        SELECT university_id,
-               bachelor,
-               'university(short)',
-               'uni(H+,H-,H+/-)'
+        SELECT *
         FROM university
         WHERE university_id=1
         """.
 
 <#student_to_universityTableView> rr:sqlQuery """
-        SELECT student,
-               university,
-               grade
+        SELECT *
         FROM student_to_university
         WHERE student=1
         """.
