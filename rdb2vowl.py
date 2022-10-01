@@ -19,11 +19,10 @@ result = g.parse("output.ttl", format="turtle")
 G = rdflib_to_networkx_multidigraph(result)
 
 net=Network(width="1300px",
-            bgcolor="#000000",
+            bgcolor="#ffffff",
             notebook=True,
             layout="hierarchical",
-            heading="Ontology visualization",
-            font_color="#ffffff")
+            heading="Ontology visualization")
 
 net.from_nx(G)
 
