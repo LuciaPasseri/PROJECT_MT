@@ -13,7 +13,7 @@
     ];
     rr:predicateObjectMap [
         rr:predicate ex:exp_score;
-        rr:objectMap [ rr:column "exp (++,+,-,0)" ];
+        rr:objectMap [ rr:column "exp(++,+,-,0)" ];
     ].
 	
 <#a> rr:objectMap <#b> .
