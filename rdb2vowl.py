@@ -26,7 +26,7 @@ net=Network(width="1300px",
 
 net.from_nx(G)
 
-net.show_buttons(filter_=['physics', 'layout'])
+net.show_buttons(filter_=['physics', 'layout', 'interaction', 'nodes'])
 net.show("ontology.html")
 webbrowser.open_new_tab('ontology.html') # -> it opens html on browser
 # in "layout" to visualize the classes in the bottom part and the instances in the upper part of the schema, change:
